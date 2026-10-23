@@ -583,7 +583,7 @@
         }
 
         // Sección activa en el menú
-        const map = { material: 'material', ventajas: 'material', proyectos: 'proyectos', colores: 'colores', proceso: 'proceso', preguntas: 'preguntas' };
+        const map = { material: 'material', ventajas: 'material', proyectos: 'proyectos', colores: 'colores', catalogos: 'catalogos', proceso: 'proceso', preguntas: 'preguntas' };
         const links = $$('.nav__links a');
         const io = new IntersectionObserver((entries) => entries.forEach((e) => {
             if (!e.isIntersecting) return;
